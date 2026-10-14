@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nercari.github.io/claude-skill-examples/sitemap.xml
+Sitemap: https://nercari.github.io/claude-code-setup-example/sitemap.xml
+Sitemap: https://nercari.github.io/seo-geo-aeo-audit-demo/sitemap.xml
+Sitemap: https://nercari.github.io/Nercari/sitemap.xml
