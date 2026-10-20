@@ -8,4 +8,5 @@ The IndexNow ping tests (dry run, no network), the same ones CI runs.
 
 ```
 python3 -m unittest discover -s tests -q
+python -m unittest tests.test_merge_gate -q
 ```
