@@ -4,10 +4,8 @@ Merge evidence for nercari.github.io. Paste the real output of these commands in
 
 ## Essential check
 
-A syntax check of every Python file, then the IndexNow ping and merge-gate tests (dry run, no network). Offline; under a minute.
+A syntax check of every Python file. The IndexNow ping tests are unit tests: they run locally, not in the gate (Pedro, 2026-10-24). Offline; under a minute.
 
 ```
 python3 -m compileall -q .
-python3 -m unittest discover -s tests -q
-python -m unittest tests.test_merge_gate -q
 ```
